@@ -6,7 +6,7 @@ spring:
 # DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost/sample_db?autoReconnect=true&useSSL=false
+    url: jdbc:mysql://localhost/sample_db?autoReconnect=true&useSSL=false&serverTimezone=JST
 #    url: jdbc:mysql://mydb.c2d6yuy7egrg.us-west-2.rds.amazonaws.com:3306/sample_db
 #    url: jdbc:mysql://104.198.126.171:3306/sample_db?autoReconnect=true&useSSL=false
 
